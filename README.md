@@ -18,8 +18,8 @@ Tutorial
 //TODO: Add bot publishing steps here
 
 Sample Output
-![Alt text](images/screenshot.PNG?raw=true)
-![Alt text](images/screenshotIndividualSwitches.PNG?raw=true)
-![Alt text](images/emulatorswitchesoff.PNG?raw=true)
-![Alt text](images/emulatorswitcheson.PNG?raw=true)
-![Alt text](images/switch1Action.PNG?raw=true)
+![Alt text](images/screenshot.png?raw=true)
+![Alt text](images/screenshotIndividualSwitches.png?raw=true)
+![Alt text](images/emulatorswitchesoff.png?raw=true)
+![Alt text](images/emulatorswitcheson.png?raw=true)
+![Alt text](images/switch1Action.png?raw=true)
