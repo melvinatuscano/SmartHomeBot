@@ -7,7 +7,8 @@ LUIS - LUIS is NLP processor. It can translate human language to computer intent
 Microsoft Bot service- Microsoft Bot service is framework used in our application to read user input covert them via LUIS to machine commands.
                        feeds those commands to Smartthings for processing.
 
-[image here for whole architecture]
+                       ![Alt text](images/bot.png?raw=true)
+
 
 Tutorial
 1. Create a Smartthings App.
