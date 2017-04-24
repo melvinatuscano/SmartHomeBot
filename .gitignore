@@ -1,0 +1,5 @@
+packages
+*.dll
+bin
+obj
+.vs
