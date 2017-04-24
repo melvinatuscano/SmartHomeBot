@@ -1,0 +1,147 @@
+{
+  "luis_schema_version": "2.0.0",
+  "versionId": "0.1",
+  "name": "SmartHomeBotLuis",
+  "desc": "Language processing for smart home bot",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "GetStatus"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "SwitchEvent"
+    }
+  ],
+  "entities": [
+    {
+      "name": "action"
+    },
+    {
+      "name": "location"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [
+    {
+      "name": "action",
+      "mode": true,
+      "words": "on,off",
+      "activated": true
+    },
+    {
+      "name": "location",
+      "mode": true,
+      "words": "living room,bathroom,bedroom,kitchen,switches",
+      "activated": true
+    }
+  ],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "switch on living room light",
+      "intent": "SwitchEvent",
+      "entities": [
+        {
+          "entity": "location",
+          "startPos": 10,
+          "endPos": 20
+        },
+        {
+          "entity": "action",
+          "startPos": 7,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "switch lights on",
+      "intent": "SwitchEvent",
+      "entities": [
+        {
+          "entity": "action",
+          "startPos": 14,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "switch on light",
+      "intent": "SwitchEvent",
+      "entities": [
+        {
+          "entity": "action",
+          "startPos": 7,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "switch on",
+      "intent": "SwitchEvent",
+      "entities": [
+        {
+          "entity": "action",
+          "startPos": 7,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "switch light on",
+      "intent": "SwitchEvent",
+      "entities": [
+        {
+          "entity": "action",
+          "startPos": 13,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "how are you",
+      "intent": "GetStatus",
+      "entities": []
+    },
+    {
+      "text": "get status",
+      "intent": "GetStatus",
+      "entities": []
+    },
+    {
+      "text": "good night",
+      "intent": "GetStatus",
+      "entities": []
+    },
+    {
+      "text": "good evening",
+      "intent": "GetStatus",
+      "entities": []
+    },
+    {
+      "text": "good morning",
+      "intent": "GetStatus",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "GetStatus",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "GetStatus",
+      "entities": []
+    },
+    {
+      "text": "list devices status",
+      "intent": "GetStatus",
+      "entities": []
+    }
+  ]
+}

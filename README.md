@@ -16,3 +16,10 @@ Tutorial
 //TODO: create LUIS app creation and training steps here
 3. Create Bot App  
 //TODO: Add bot publishing steps here
+
+Sample Output
+![Alt text](images/screenshot.PNG?raw=true)
+![Alt text](images/screenshotIndividualSwitches.PNG?raw=true)
+![Alt text](images/emulatorswitchesoff.PNG?raw=true)
+![Alt text](images/emulatorswitcheson.PNG?raw=true)
+![Alt text](images/switch1Action.PNG?raw=true)
